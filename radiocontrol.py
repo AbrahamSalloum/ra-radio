@@ -12,9 +12,7 @@ while True:
                 os.system("shutdown -h now")
         if(GPIO.input(23) == 0):
                 os.system("mpc prev")
-                print("PREV")
         if(GPIO.input(22) == 0):
                 os.system("mpc next")
-                print("NEXT")
 GPIO.cleanup()
 
