@@ -1,5 +1,6 @@
 import RPi.GPIO as GPIO
 import os
+import time
 os.system("mpc clear")
 os.system("mpc load listen.m3u")
 os.system("mpc play")
@@ -14,5 +15,6 @@ while True:
                 os.system("mpc prev")
         if(GPIO.input(22) == 0):
                 os.system("mpc next")
+	time.sleep(0.2); 
 GPIO.cleanup()
 
