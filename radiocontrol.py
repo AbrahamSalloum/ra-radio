@@ -2,6 +2,7 @@ import RPi.GPIO as GPIO
 import os
 import time
 os.system("mpc clear")
+os.system("mpc repeat on")
 os.system("mpc load listen.m3u")
 os.system("mpc play")
 GPIO.setmode(GPIO.BCM)
@@ -17,5 +18,3 @@ while True:
         if(GPIO.input(22) == 0):
                 os.system("mpc next")
 	time.sleep(0.2); 
-
-

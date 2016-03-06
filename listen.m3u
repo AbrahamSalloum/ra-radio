@@ -1,14 +1,7 @@
 #EXTM3U
 #EXTINF:8888 2ME
-http://war.str3am.com:7260/2memelb
+http://isrv-stream-1.vzb.conexim.net:8000/2me
+#EXTIF:8888 SBSARABIC24
+http://sbsshout.stream.hostworks.com.au/SBS_DAB8
 #EXTINF:8888 BBCARABIC
 http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-araba
-#EXTINF:8888 BBC4EXTRA
-http://bbcmedia.ic.llnwd.net/stream/bbcmedia_intl_he_radio4extra_p
-#EXTINF:8888 BBCWORLDSERVICE
-http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
-#EXTINF:8888 2GB
-http://radio1.internode.on.net:8000/236
-#EXTINF:8888 ABCCLASSIC
-http://radio1.internode.on.net:8000/131
-
